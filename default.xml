@@ -17,13 +17,9 @@
   <!-- common -->
   <project name="SonyCM/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-14.1" />
 
-  <!-- rhine -->
-  <project name="SonyCM/android_device_sony_rhine" path="device/sony/rhine" remote="github" revision="cm-14.1" />
-  <project name="SonyCM/android_device_sony_honami" path="device/sony/honami" remote="github" revision="cm-14.1" />
-
   <!-- shinano -->
   <project name="SonyCM/android_device_sony_shinano" path="device/sony/shinano" remote="github" revision="cm-14.1" />
-  <project name="SonyCM/android_device_sony_leo" path="device/sony/leo" remote="github" revision="cm-14.1" />  
+  <project name="gurantasu/device_sony_aries" path="device/sony/aries" remote="github" revision="cm-14.1" />  
 
   <!-- sony sepolicy -->
   <project name="sonyxperiadev/device-sony-sepolicy" path="device/sony/sepolicy" remote="github" revision="n-mr0" />
@@ -45,9 +41,4 @@
   <project name="sonyxperiadev/device-sony-common-init" path="hardware/sony/init" remote="github" revision="master" />
   <project name="sonyxperiadev/vendor-qcom-opensource-dataservices" path="hardware/sony/dataservices" remote="github" revision="master" />
   
-  <!-- vendor -->
-  <project name="SonyAosp/vendor_nxp" path="vendor/nxp" remote="github" revision="android-7.0" />
-  <project name="SonyAosp/vendor_qcom" path="vendor/qcom" remote="github" revision="android-7.0" />
-  <project name="SonyAosp/vendor_sony" path="vendor/sony" remote="github" revision="android-7.0" />
-  <project name="SonyAosp/vendor_qcom_firmware" path="vendor/qcom/firmware" remote="github" revision="android-7.0" />
 </manifest>
